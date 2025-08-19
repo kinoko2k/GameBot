@@ -1,0 +1,5 @@
+{
+    "applicationId": "アプリid",
+    "guildIds": ["サーバーid", "サーバーid"],
+    "token": "token"
+}
