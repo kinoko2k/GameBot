@@ -12,7 +12,6 @@ const {
 const dayjs = require('dayjs');
 const timezone = require('dayjs/plugin/timezone');
 const utc = require('dayjs/plugin/utc');
-const mysql = require('mysql2/promise');
 const config = require('../../config.json');
 
 dayjs.extend(utc);

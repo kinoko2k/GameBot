@@ -5,17 +5,9 @@ const path = require('path');
 
 const guildCommands = [
     require('./commands/bot/about.js').data.toJSON(),
+    require('./commands/tools/gameinvite.js').data.toJSON(),
+    require('./commands/minecraft/mcid.js').data.toJSON(),
 ];
-
-const appPath = path.join(__dirname, 'applications');
-const appFiles = fs.readdirSync(appPath).filter(file => file.endsWith('.js'));
-
-for (const file of appFiles) {
-    const command = require(path.join(appPath, file));
-    if ('data' in command && 'execute' in command) {
-        guildCommands.push(command.data.toJSON());
-    }
-}
 
 const rest = new REST({ version: '10' }).setToken(token);
 

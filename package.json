@@ -1,0 +1,26 @@
+{
+  "name": "gamebot",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/kinoko2k/GameBot#readme",
+  "bugs": {
+    "url": "https://github.com/kinoko2k/GameBot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinoko2k/GameBot.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "kinoko1216",
+  "type": "commonjs",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dayjs": "^1.11.13",
+    "discord.js": "^14.21.0",
+    "fs": "^0.0.1-security"
+  }
+}

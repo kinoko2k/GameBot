@@ -18,6 +18,8 @@ const path = require("path");
 
 const commands = [
     require("./commands/bot/about.js"),
+    require('./commands/tools/gameinvite.js'),
+    require('./commands/minecraft/mcid.js'),
 ];
 
 const client = new Client({
