@@ -1,5 +1,10 @@
 {
     "applicationId": "アプリid",
-    "guildIds": ["サーバーid", "サーバーid"],
-    "token": "token"
+    "guildIds": [
+        "サーバーid"
+    ],
+    "token": "token",
+    "logChannelIds": [
+        "log送信チャンネルid"
+    ]
 }
